@@ -192,7 +192,7 @@ RCT_EXPORT_MODULE();
     [message appendString:@"• Uninstall this app, delete your Xcode DerivedData folder and rebuild it.\n"];
     [message appendString:@"• If you use `use_frameworks!`, follow the workaround guide in the project README."];
 
-    RCTLogError(@"%@", message);
+    // RCTLogError(@"%@", message);
   }
 #endif
 
